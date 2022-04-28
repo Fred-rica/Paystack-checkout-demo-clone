@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+.Hero{ 
+    background-color:#EAF6FC;
+    width: 100%;
+    height: 690px;
+}
+.Navigation-bar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    font-weight: 500;
+    font-size: 15px;
+    z-index: 100;
+    background-color:rgba(234, 246, 252,0.5);
+}
+.Nav-Menu{
+    color:  #011B33;
+}
+.Nav-Menu:hover{
+    color: #0BA4DB;
+}
+.Navigation-bar-leftside{
+   display: flex;
+   justify-content: flex-start;
+}
+.Navigation-bar-leftside ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.Navigation-bar-rightside{
+    display: flex;
+    padding-left: 200px;
+ }
+.Navigation-bar-rightside ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.Paystack-Logo{
+    width: 90px;
+    height: 20px;
+}
+.Dropdown-Header{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-wrapper{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    display: none;
+}
+.Dropdown-Header:hover .dropdown-wrapper{
+    display: flex;
+}
+
+.dropdown-wrapper-leftside{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+    padding-top: 35px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.content-dropdown-wrapper-leftside{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Icon-in-Dropdown-menu{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #011B33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-solid{
+    color: white;
+}
+.dropdown-icon{
+    color: #011B33;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+.dropdown-icon:hover{
+    color: #0BA4DB;
+}
+.Text-in-dropdown-menu{
+    color: #011B33;
+}
+.Text-in-dropdown-menu >h4{
+    margin: 0;
+    padding: 0;
+}
+.Text-in-dropdown-menu >P{
+    padding: 0;
+    font-weight: 400;
+}
+.Text-in-dropdown-menu:hover h4{
+    color: #0BA4DB;
+}
+.dropdown-wrapper-rightside{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FBFC;
+    width: 30%;
+    justify-content: center;
+    padding-left: 20px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.dropdown-wrapper-rightside h5{
+    color: #011B33;
+    font-weight: 400;
+}
+.content-dropdown-wrapper-rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-dropdown-wrapper-rightside a{
+    color: #011B33;
+}
+.content-dropdown-wrapper-rightside a:hover{
+    color: #0BA4DB;
+}
+.dropdown-wrapper2{
+    display: flex;
+    position: absolute;
+    width: 650px;
+    height: 450px;
+    display: none;
+}
+.Dropdown-Header:hover .dropdown-wrapper2{
+    display: flex;
+}
+.dropdown-wrapper2-leftside{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 78%;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0px 20px;
+    padding-top: 35px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.dropdown-wrapper2-rightside{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FBFC;
+    width: 22%;
+    padding-left: 20px;
+    padding-top: 50px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.dropdown-wrapper2-rightside h5{
+    color: #011B33;
+    font-weight: 400;
+}
+.dropdown-wrapper3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-color: #F9FBFC;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+.Dropdown-Header:hover .dropdown-wrapper3{
+    display: flex;
+}
+.dropdown-wrapper3 a{
+    color: #011B33;
+}
+.dropdown-wrapper3 a:hover{
+    color: #0BA4DB;
+}
+.Create-Account{
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3BB75E;
+    color: #F9FBFC;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.Flag{
+    width: 20px;
+    height: 15px;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    top: 5px;
+}
+.Demo-country-option{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label-demo{
+    display: flex;
+}
+.Label-Demo-country-option{
+    font-weight: 400;
+    font-size: 15px; 
+}
+.Select-Country-Option{
+    height: 30px;
+    background-color:#E2F3FA;
+    font-weight: 600;
+    font-size: 15px;
+    border: #D8EAF5;
+   position: relative;
+   bottom: 2px;
+}
+.Paystack-Checkout-Demo-Text{
+    width: 600px;
+}
+.Paystack-Checkout-Demo-Text>h1{
+    margin: 10px 0 10px 25px;
+    font-weight: 800;
+    font-size: 45px;
+   color: #021C34;
+}
+.Paystack-Checkout-Demo-Text>p{
+    color: #021C34;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+}
+.Main-box{
+    margin-top: 50px;
+    width: 450px;
+    height: 150px;
+    background-color: #011C34;
+    border: none;
+    border-radius: 5px;
+    padding: 40px;
+}
+.Main-box p{
+    color: #7F8C98;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0;
+    margin-top: 0;
+}
+.email{
+    background-color: #09223A;
+    width: 450px;
+    height: 50px;
+    border: #09223A;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #C1C2C3;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.payment-values-input{
+    background-color: #3BB75E;
+    border: #3BB75E;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+.payment-values{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+main{
+    background-color: white;;
+    width: 100%;
+    height: 950px;
+}
+.Section-1{
+    position: relative;
+    top: 200px;
+    padding: 0,50px;
+}
+.Section-1 p{
+    color: #011B33;
+
+}
+.Section-1 h1{
+    color: #011B33;
+    width: 620px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+
+
+}
+.Create-Account2{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3BB75E;
+    color: #F9FBFC;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 980px;
+}
+.Section-wrapper{
+    display: flex;
+    position: relative;
+    top: 300px;
+    gap: 150px;
+    margin: 0px 50px;
+}
+.Section-wrapper-header{
+    color: #011B33;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.mini-sections{
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px  0;
+    color: #1A3147;
+    
+}
+.mini-sections a{
+    color: #1A314D;
+}
+.mini-sections a:hover{
+    color: #0BA4DB;
+}
+footer{
+    background-color:white;
+    padding: 50px;
+    margin: 0px 20px;
+    border-top: 1px solid rgba(240, 242, 243, 0.85);
+}
+.Section-wrapper3{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.paystack-Contact{
+    color: #0BA4DB;
+}
+.Icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Icons a{
+    color: #57737D;
+   position: relative;
+   right: 10px;
+}
+.mini-sections p{
+    margin: 0px;
+    line-height: 30px;
+}
