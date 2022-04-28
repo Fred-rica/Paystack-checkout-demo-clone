@@ -8,7 +8,7 @@ a{
     text-decoration: none;
 }
 .Hero{ 
-    background-color:#EAF6FC;
+    background-color:red;
     width: 100%;
     height: 690px;
 }
@@ -311,7 +311,6 @@ main{
 }
 .container{
    padding-left: 30px;
-    border: 2px, solid red;
 }
 .Section-1{
     position: relative;
