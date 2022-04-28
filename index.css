@@ -307,12 +307,15 @@ a{
 main{
     background-color: white;;
     width: 100%;
-    height: 950px;
+    height: 1000px;
+}
+.container{
+   padding-left: 30px;
+    border: 2px, solid red;
 }
 .Section-1{
     position: relative;
     top: 200px;
-    padding: 0,50px;
 }
 .Section-1 p{
     color: #011B33;
@@ -324,8 +327,6 @@ main{
     font-weight: 800;
     font-size: 48px;
     line-height: 60px;
-
-
 }
 .Create-Account2{
     width: 200px;
@@ -341,12 +342,15 @@ main{
     bottom: 10px;
     left: 980px;
 }
+.container2{
+    padding-left: 50px;
+    padding-top: 50px;
+}
 .Section-wrapper{
     display: flex;
     position: relative;
-    top: 300px;
+    top: 250px;
     gap: 150px;
-    margin: 0px 50px;
 }
 .Section-wrapper-header{
     color: #011B33;
@@ -373,7 +377,8 @@ main{
 }
 footer{
     background-color:white;
-    padding: 50px;
+    height: 480px;
+    padding-top: 50px;
     margin: 0px 20px;
     border-top: 1px solid rgba(240, 242, 243, 0.85);
 }
